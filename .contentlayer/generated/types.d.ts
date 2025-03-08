@@ -17,7 +17,7 @@ export type Post = {
   description?: string | undefined
   date: string
   published: boolean
-  images: string
+  image: string
   /** Markdown file body */
   body: Markdown
   slug: string
